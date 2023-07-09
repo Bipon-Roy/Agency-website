@@ -28,7 +28,10 @@
     display: flex;
     align-items: center;
 }
-
+.banner-info {
+    margin: 0px auto;
+    width: 0 auto;
+}
 .primary {
     color: red;
 }
@@ -54,4 +57,79 @@
     border: none;
     margin: 5px;
     text-transform: capitalize;
+}
+.btn-service {
+    background-color: white;
+    color: gray;
+    border-radius: 25px;
+}
+.service-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url("./asset/image/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.icon {
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.service-description {
+    width: 50%;
+}
+.service-title {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 7px;
+    color: rgb(190, 207, 208);
+}
+.service-description {
+    width: 75%;
+    font-size: 20px;
+    padding: 12px;
+    color: rgb(190, 207, 208);
+}
+.service-list {
+    list-style: decimal;
+    padding: 22px;
+    font-size: 18px;
+    color: rgb(190, 207, 208);
+}
+.first-two-box {
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+}
+.author-img {
+    width: 25%;
+    border-radius: 100px;
+    padding: 7px;
+}
+.author-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.author-button {
+    margin-left: 12px;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 20px;
 }
